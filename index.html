@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> JQuery Game </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+
+</head>
+
+<div class="container" id="top">
+    <h1> Balloon Collector </h1>
+</div>
+
+<body>
+
+    <div class="container" id="body">
+        <p> At the start of the game you will be given a random number.
+            <br>
+            <br>
+            There are four balloons below. By clicking on any of balloons, 
+            you will increase your points by a random number, contributing to your
+            total score. 
+            <br>
+            Your objective is to match your total score to the random number
+            given at the start of the game. You lose if your total score is more 
+            than the random target number.
+            <br>
+            The value of each balloon is completely hidden to you, so you will have
+            to do calculations along the way.
+            <br>
+            <br>
+            At the start of each game, the balloons will have different values.
+        </p>  
+
+    </div>
+
+    <div class="container" id="numberDiv">
+        <h2 id="randomNumber"> </h2>
+    </div>
+
+    <div class="container" id="scoreDiv">
+        <h2 id="wins"> </h2>
+        <h2 id="losses"> </h2>
+    </div>
+
+    <div class="container" id="balloonsDiv">
+        <img src="assets/images/blue.jpg" id="blue">
+        <img src="assets/images/green.jpg" id="green">
+        <img src="assets/images/orange.gif" id="orange">
+        <img src="assets/images/yellow.jpg" id="yellow">
+    </div>
+
+    <div class="container" id="totalScoreDiv">
+        <p> Your total score is: </p>
+        <h2 id="totalscore"> </h2>
+    </div>
+
+    <button id="reset"> Play Again! </button>
+
+    <!-- Occurs after the HTML page loads -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"> </script>
+    <script type="text/javascript" src="assets/javascript/game.js"> </script>
+    
+</body>
+
+</html>

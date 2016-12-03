@@ -1,0 +1,59 @@
+body {
+  background-image: url("../images/background.jpeg");
+  background-size: 99.99%;
+}
+
+#top {
+  font-size: 80px; 
+  font-family: 'Passion One';
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  float: right;
+  position: relative;
+  margin-right: 1em;
+
+}
+
+body {
+  font-size: 25px;
+  font-family: 'Passion One';
+  background-color: #E8980C;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff; 
+  width: 50%;
+  float: right;
+  position: relative;
+  margin-top: 2em;
+  
+}
+
+#body p {
+  margin-top: 5em;
+
+}
+
+#numberDiv, #scoreDiv, #totalScoreDiv,{
+  font-size: 20px; 
+  font-family: 'Passion One';
+  background-color: #FF6D0D;
+  display: inline-block;
+  padding-right: 25px;
+  color: #ffffff; 
+  clear: both;
+}
+
+#numberDiv {
+  padding: 10px 0 10px 0;
+}
+
+#scoreDiv {
+  padding: 5px 0 5px 0;
+}
+#blue, #green, #orange, #yellow {
+  width: 70px;
+  height: 70px;
+}
